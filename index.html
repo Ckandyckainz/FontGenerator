@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FontGenerator</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 10px;
+            }
+            input{
+                font-size: 2em;
+            }
+            button{
+                font-size: 2em;
+            }
+            canvas{
+                border: solid black 5px;
+                margin: 0;
+                padding: 0;
+            }
+            p{
+                font-size: 2em;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="maincanvas"></canvas>
+        <hr>
+        <div id="enterdiv">
+            <p id="instructions"></p>
+            <button id="donebutton">Done</button>
+        </div>
+        <div id="generatediv">
+            <button id="generatebutton">Generate</button>
+            <input type="text" id="textinput">
+        </div>
+        <script src="code.js"></script>
+    </body>
+</html>
